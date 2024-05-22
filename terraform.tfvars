@@ -1,0 +1,8 @@
+region            = "us-east-1"
+vpc_cidr          = "10.0.0.0/16"
+subnet_cidr       = "10.0.1.0/24"
+availability_zone = "us-east-1a"
+key_name          = "linuxmachinekey"
+ami               = "ami-0aedf6b1cb669b4c7"
+instance_type     = "t2.micro"
+ansible_playbook  = "mediawiki.yaml"
